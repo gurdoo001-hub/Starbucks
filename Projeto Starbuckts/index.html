@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="SRC/CSS/style.css">
+    <title>Starbucks</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="SRC/images/logo-starbucks.png" alt="Logo Starbucks" class="logo">
+            <button class="btn btn-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trending">Em alta</a></li>
+                <li><a href="#about">Sobre nós</a></li>
+                <li><a href="#products">Novidades</a></li>
+            </ul>
+            <a href="tel:+5554993552852" class="btn btn-default">Ligar</a>
+        </nav>
+    </header>
+
+    <main id="container">
+        <section id="home">
+            <img src="SRC/images/detail.png" alt="Starbucks Drinks" class="home-image">
+            <h1 class="home-title">
+                Mais que café, uma
+                <span>experiência</span>
+            </h1>
+            <p class="home-description">
+                Descubra cafés icônicos, sabore únicos e a energia
+                perfeita para cada parte do seu dia.
+            </p>
+            <div class="home-actions">
+                <a href="#trending" class="btn btn-default">Conhecer</a>
+                <a href="mailto:gurdoo001@gmail.com" class="btn btn-outlined">Contatar</a>
+            </div>
+        </section>
+
+        <section id="trending">
+            <h2 class="title">Em alta</h2>
+            <div class="trending-cards">
+                <div class="trending-card">
+                    <img src="SRC/images/trending/card1.png" alt="Frapputino Avelã">
+                    <div class="trending-rate">
+                        <p>5 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                    <p class="trending-card-description">
+                        Frapputino
+                        <span>Avelã</span>
+                    </p>
+                </div>
+
+                <div class="trending-card">
+                    <img src="SRC/images/trending/card2.png" alt="Frapputino Pistache">
+                    <div class="trending-rate">
+                        <p>5 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                    <p class="trending-card-description">
+                        Frapputino
+                        <span>Pistache</span>
+                    </p>
+                </div>
+
+                <div class="trending-card">
+                    <img src="SRC/images/trending/card3.png" alt="Frapputino Morango">
+                    <div class="trending-rate">
+                        <p>5 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                    <p class="trending-card-description">
+                        Frapputino
+                        <span>Morango</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2 class="title">Novidades</h2>
+            <p style="text-align: center; color: var(--color-neutral-8); padding: 40px 20px; font-size: 1.2rem;">
+                Em breve mais produtos incríveis! ☕
+            </p>
+        </section>
+    </main>
+
+    <script src="SRC/JS/script.js"></script>
+</body>
+</html>
